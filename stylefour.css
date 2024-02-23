@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    background-image: url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/Copy of ECESTORMS_Official_Logo_2022 (1).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 700px 600px;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #382178;
+    height: 1.5cm;
+    margin-left: -10px;
+    margin-top: -40px;
+    padding-right: 18px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.active {
+    text-decoration: none;
+    color: #FFCC00;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    opacity: 100%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 120px;
+    margin-top: 10px;
+    margin-left: 145px;
+}
+ul li a{
+    text-decoration: none;
+    color: #E3CDFF;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    opacity: 100%;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: #FFCC00;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    opacity: 100%;
+    transition-duration: 0.3s;
+}
+
+.submitanExam {
+    height: 600px;
+    background-color: rgba(161, 0, 255, 0.5);
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+footer{
+    color: white;
+    font-size: 15px;
+    font-family: 'Commissioner', sans-serif;
+    margin: 1%;
+    background-color: black;
+    height: 175px;
+    margin: 0px -7px -10px -10px;
+    padding-bottom: 10px;
+}
+
+.footerlogo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.office {
+    float: left;
+    padding-top: 15px;
+    color:white;
+    font-size: 15px;
+    padding-left: 50px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+}
+
+.email {
+    float: left;
+    padding-top: 0px;
+    color:white;
+    font-size: 15px;
+    margin-left: 50px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+}
+
+.linkedin {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 40px;
+    margin-left:-465px;
+}
+
+.linkedin:hover {
+    float: left;
+    width: 55px;
+    height: 55px;
+    padding-top: 40px;
+    margin-left:-465px;
+    transition-duration: 0.5s;
+}
+
+.linkedin1 {
+    float: left;
+    width: 45px;
+    height: 45px;
+    padding-top: 42px;
+    margin-left:-400px;
+}
+
+.linkedin1:hover {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 42px;
+    margin-left:-400px;
+    transition-duration: 0.5s;
+}
+
+.submitExam {
+    float:right;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.submitExam:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.tutorialSuggestions {
+    float:right;
+    clear:both;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 383px;
+    margin-top: -67px;
+}
+
+.tutorialSuggestions:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.constitution {
+    clear:both;
+    float:right;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 319px;
+    margin-top: -40px;
+}
+
+.constitution:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.joinTeam {
+    clear:both;
+    float:right;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 402px;
+    margin-top: -14px;
+}
+
+.joinTeam:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}

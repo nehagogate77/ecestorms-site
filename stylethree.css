@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    background-image: url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/Copy of ECESTORMS_Official_Logo_2022 (1).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 700px 600px;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #382178;
+    height: 1.5cm;
+    margin-left: -10px;
+    margin-top: -40px;
+    padding-right: 18px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.active {
+    text-decoration: none;
+    color: #FFCC00;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    opacity: 100%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 120px;
+    margin-top: 10px;
+    margin-left: 145px;
+}
+ul li a{
+    text-decoration: none;
+    color: #E3CDFF;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    opacity: 100%;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: #FFCC00;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    opacity: 100%;
+    transition-duration: 0.3s;
+}
+
+.photos {
+    width:4.32cm;
+    height: 3.5cm;
+    margin-top: 1cm;
+}
+
+.paragraph {
+    text-align: center;
+    color:#382178;
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    margin-left: 7cm;
+    margin-right: 7cm;
+}
+
+.button1 {
+    width:50%;
+    background-color: transparent;
+    border-bottom-color:#ADB7FF;
+    border-bottom-width: 2px;
+    float: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    color:#382178;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+.button2 {
+    width:50.85%;
+    background-color: transparent;
+    border-bottom-color:#ADB7FF;
+    border-bottom-width: 2px;
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    color:#382178;
+    margin-right: -13px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+button:hover, button:active {
+    border-bottom-color:#A100FF;
+    background-color: rgba(161,0,255,0.1);
+    border-bottom-width: 2px;
+    transition-duration: 500ms;
+}
+
+.headshots {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: auto;
+
+}
+
+.name {
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    color:#382178;
+    text-align: center;
+}
+
+.position {
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    color:#382178;
+    text-align: center;
+}
+footer{
+    color: white;
+    font-size: 15px;
+    font-family: 'Commissioner', sans-serif;
+    margin: 1%;
+    background-color: black;
+    height: 175px;
+    margin: 0px -7px -10px -10px;
+    padding-bottom: 10px;
+}
+
+.footerlogo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.office {
+    float: left;
+    padding-top: 25px;
+    color:white;
+    font-size: 15px;
+    padding-left: 50px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+}
+
+.email {
+    float: left;
+    padding-top: 7px;
+    color:white;
+    font-size: 15px;
+    margin-left: 50px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+}
+
+.linkedin {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 40px;
+    margin-left:-465px;
+}
+
+.linkedin:hover {
+    float: left;
+    width: 55px;
+    height: 55px;
+    padding-top: 40px;
+    margin-left:-465px;
+    transition-duration: 0.5s;
+}
+
+.linkedin1 {
+    float: left;
+    width: 45px;
+    height: 45px;
+    padding-top: 42px;
+    margin-left:-400px;
+}
+
+.linkedin1:hover {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 42px;
+    margin-left:-400px;
+    transition-duration: 0.5s;
+}
+
+.advertise {
+    background-image: url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/images/HoodieComp_1.png");
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 400px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding-right: 8px;
+}
+
+.specialClothing {
+    width: 100%;
+    float: right;
+    text-align: center;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 45px;
+    color: #ADB7FF;
+    margin-top: 100px;
+}
+
+.specialClothingAvailable {
+    margin-top: 0px;
+    clear:both;
+    float: right;
+    text-align: center;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 18px;
+    color: #382178;
+    margin-right: 653px;
+}
+
+.scarf {
+    width: 50%;
+    float: left;
+    margin-top: -150px;
+    margin-left: 50px;
+    border-color:#382178;
+}
+
+.registrationLink1 {
+    text-align: center;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    width:200px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    padding-top: 1px;
+    margin-left: 646px;
+    margin-top: -0px;
+}
+
+.registrationLink1:hover, .registrationLink1:active {
+    background-color: #ADB7FF;
+    color:#1552FF;
+    transition-duration: 0.5s;
+}
+
+.upcomingEvents {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Commissioner', sans-serif;
+    color: #1552FF;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+.sectionEvents {
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+}
+
+.firstEvent {
+    width: 300px;
+    height: 375px;
+    background-image: linear-gradient(to top, #8080ff, transparent), url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/images/Merchandise_1.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin-top: -20px;
+}
+
+.firstEvent2 {
+    width: 300px;
+    height: 375px;
+    background-image: linear-gradient(to top, #8080ff, transparent), url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/images/Merchandise_1.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin-top: -20px;
+}
+
+.firstEvent2_1 {
+    width: 300px;
+    height: 375px;
+    background-image: linear-gradient(to top, #8080ff, transparent), url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/images/Merchandise_1.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin-top: -20px;
+}
+
+.firstEvent2_2 {
+    width: 300px;
+    height: 375px;
+    background-image: linear-gradient(to top, #8080ff, transparent), url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/images/Merchandise_1.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin-top: -20px;
+}
+
+.firstEvent2_3 {
+    width: 300px;
+    height: 375px;
+    background-image: linear-gradient(to top, #8080ff, transparent), url("C:/Users/Prajakta/Documents/NEHA/ECESTORMS-SITE-main/images/Merchandise_1.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin-top: -20px;
+}
+
+.firstEventDescription {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-top: 275px;
+}
+
+.sectionEvents1 {
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+}
+
+.event4 {
+    width: 300px;
+    height: 375px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #7a00cc;
+    margin-left: 40px;
+}
+
+#purchaseInfo {
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+    color: #382178;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    color: white;
+    font-size: 15px;
+    font-family: 'Commissioner', sans-serif;
+    margin: 1%;
+    background-color: black;
+    height: 175px;
+    margin: 0px -8px -10px -10px;
+}
+
+.footerlogo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.office {
+    float: left;
+    padding-top: 25px;
+    color:white;
+    font-size: 15px;
+    padding-left: 50px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+}
+
+.email {
+    float: left;
+    padding-top: 7px;
+    color:white;
+    font-size: 15px;
+    margin-left: 50px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+}
+
+.submitExam {
+    float:right;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 15px;
+}
+
+.submitExam:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.tutorialSuggestions {
+    float:right;
+    clear:both;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 383px;
+    margin-top: -67px;
+}
+
+.tutorialSuggestions:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.constitution {
+    clear:both;
+    float:right;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 319px;
+    margin-top: -40px;
+}
+
+.constitution:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.joinTeam {
+    clear:both;
+    float:right;
+    font-size: 15px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 402px;
+    margin-top: -14px;
+}
+
+.joinTeam:hover {
+    color: #e066ff;
+    transition-duration: 500ms;
+}
+
+.linkedin {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 40px;
+    margin-left:-465px;
+}
+
+.linkedin:hover {
+    float: left;
+    width: 55px;
+    height: 55px;
+    padding-top: 40px;
+    margin-left:-465px;
+    transition-duration: 0.5s;
+}
+
+.linkedin1 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-top: 42px;
+    margin-left:-400px;
+}
+
+.linkedin1:hover {
+    float: left;
+    width: 55px;
+    height: 55px;
+    padding-top: 42px;
+    margin-left:-400px;
+    transition-duration: 0.5s;
+}
